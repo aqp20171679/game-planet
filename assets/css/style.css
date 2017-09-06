@@ -1,7 +1,40 @@
+<<<<<<< HEAD
 
+=======
+/* General */
+body {
+    position: relative;
+}
+/* Nav */
+nav {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #8bac0f !important;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-nav{
+    font-size: 1.2em;
+}
+/* Portada */
+/* Texto */
+>>>>>>> 616cf88f10b709bd6e520f8d2122774691a1f043
 #texto1{
 	color: white;
 	font-size: 1000%;
+}
+
+/* Line */
+.raya{
+	border: 8px solid white;
+	width: 80%;
 }
 
 .first{
@@ -15,6 +48,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 	margin: 0 auto;
+<<<<<<< HEAD
 	height: 100%;
 
 }
@@ -22,6 +56,9 @@
 .settings{
 	padding-top: 80px;
 	height: 200px;
+=======
+	height: 800px;
+>>>>>>> 616cf88f10b709bd6e520f8d2122774691a1f043
 }
 
 .mapa{
@@ -32,7 +69,6 @@
 	padding-right: 30px;
 	width: 100%;
 }
-
 
 #texto1:hover {
 	filter: opacity(.5);
@@ -55,6 +91,7 @@
 	padding-bottom: 140px;
 }
 
+<<<<<<< HEAD
 .raya{
 	border-style: dotted solid dashed;
 	border: 8px solid white;
@@ -188,3 +225,5 @@ svg {
     stroke-dasharray: 0 87.5%;
   }
 }
+=======
+>>>>>>> 616cf88f10b709bd6e520f8d2122774691a1f043
