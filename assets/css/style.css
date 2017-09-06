@@ -1,6 +1,4 @@
-/**{
-	outline: 1px solid red;
-}*/
+
 #texto1{
 	color: white;
 	font-size: 1000%;
@@ -17,8 +15,13 @@
 	-o-background-size: cover;
 	background-size: cover;
 	margin: 0 auto;
-	height: 800px;
+	height: 100%;
 
+}
+
+.settings{
+	padding-top: 80px;
+	height: 200px;
 }
 
 .mapa{
@@ -56,4 +59,132 @@
 	border-style: dotted solid dashed;
 	border: 8px solid white;
 	width: 80%;
+}
+
+/*modal*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.set{
+	width: 50%;
+	margin-left: 0px;
+}
+
+.contactanos{
+	width: 100%;
+	font-size: 10%;
+}
+
+.consola{
+	padding-top: 100px;
+}
+
+.botonimagen{
+  background-image:url(../img-portada/herramientas.png);
+  border-radius: 100px;
+  background-size: contain;
+  background-repeat:no-repeat;
+  height:100px;
+  width:100px;
+  background-position:center;
+  padding-right: 50px;
+}
+
+/*servicio técnico*/
+.servicio {
+  background: #082330;
+  background-size: .8em 50%;
+  font: 12em/1 Arial;
+}
+
+.text--line {
+  font-size: .8em;
+}
+
+svg {
+  width: 50%;
+  height: 50%;
+}
+
+.garantia{
+	margin-top: 30px;
+	padding-top: 50px;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 3px;
+  -webkit-animation: stroke-offset 14s infinite linear;
+          animation: stroke-offset 14s infinite linear;
+}
+.text-copy:nth-child(1) {
+  stroke: #360745;
+  stroke-dashoffset: 7%;
+}
+.text-copy:nth-child(2) {
+  stroke: #D61C59;
+  stroke-dashoffset: 14%;
+}
+.text-copy:nth-child(3) {
+  stroke: #E7D84B;
+  stroke-dashoffset: 21%;
+}
+.text-copy:nth-child(4) {
+  stroke: #EFEAC5;
+  stroke-dashoffset: 28%;
+}
+.text-copy:nth-child(5) {
+  stroke: #1B8798;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
 }
